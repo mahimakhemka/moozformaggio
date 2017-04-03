@@ -1,0 +1,72 @@
+body{
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.navbar-brand{
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+#first{
+  padding: 0px 60px 0px 60px;
+  font-size: 15px;
+}
+
+#second{
+  padding-top: 10px;
+}
+
+
+.carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color:#DEB887 ;
+}
+
+.carousel-inner > .item #instagram {
+      width: 40%;
+      margin: auto;
+      align-content: center;
+}
+
+#footer{
+  padding-top: : 30px;
+  background-color: #DEB887;
+}
+
+#story{
+  padding-top: 20px;
+  padding-bottom: 25px;
+  background-color: #DEB887;
+}
+
+.navbar {
+      margin-bottom: 0;
+      background-color: #DEB887;
+      border: 0;
+      letter-spacing: 3px;
+      opacity: 0.9;
+      color: black;
+  }
+
+
+.navbar-nav li a:hover {
+      color: #fff !important;
+}
+
+.navbar-nav li.active a {
+      color: #fff !important;
+      background-color:  #DEB887 !important;
+}
+
+.navbar-default .navbar-toggle {
+      border-color: transparent;
+}
+
+.open .dropdown-toggle {
+     color: #fff;
+     background-color: #DEB887  !important;
+ }
+
+#footer a{
+  color: black;
+}

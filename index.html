@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mooz</title>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://use.fontawesome.com/6e1cbb9661.js"></script>
+    <script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
+ <link rel='stylesheet' type='text/css' href='index.css'>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"> <img alt="Brand" src="Images/logo2.png"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="recipes.html">Recipes</a></li>
+        <li><a href="buy.html">Buy</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <! --slideshow-->
+  <div class="automatic-slideshow">
+    <img class="slideshow" src="Images/Cover1.png" style="width:100%">
+    <img class="slideshow" src="Images/Cover2.jpg" style="width:100%">
+    <img class="slideshow" src="Images/Cover3.jpg" style="width:100%">
+  </div>
+  <script>
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("slideshow");
+        for (i = 0; i < x.length; i++) {
+         x[i].style.display = "none";
+       }
+       myIndex++;
+       if (myIndex > x.length) {myIndex = 1}
+       x[myIndex-1].style.display = "block";
+       setTimeout(carousel, 4000); // Change image every 4 seconds
+  }
+  </script>
+  <!--company info-->
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-6" id="story">
+  								<h2 style="text-align:center">THE MOOZ STORY</h2>
+
+                    <div id="first">
+  											<p> We, at Mooz, make sure to manufacture the best artisan Italian cheese made of the best milk freshly collected from the farms of Haryana.
+                           Our strict norms and policies ensure our product quality and in turn our customer's full satisfaction.
+                          Crafted by an Italian specialist fourth generation cheese-maker, we promise to deliver you nothing but best in every Mooz product.
+                          Pick out your favourites from our selection of in-house cheese like Mascarpone, Buffolo Fresca, Ricotta and many more.
+                          Our full range of European cheese is put togerther with the finest Indian Buffallo, Cow and Goat's milk.
+                             <br>
+                           Mooz manufactures and supplies products, shares many recipes across its social media and holds a number of different events.
+                     </div>
+              </div>
+  		       <div class="col-sm-6">
+                <img id="second" src="Images/background.jpg" style="padding-top=10px">
+            </div>
+  	   </div>
+     </div>
+
+<!--what our customers have to say-->
+<h2 style="text-align:center">Customer Recipes</h2>
+<p style="text-align:center"> Get inspired by the delicious treats made by our customers using our cheese </p>
+
+<div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <div id="instagram">
+        <blockquote class="instagram-media" data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:550px; max-height:550px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:40.97222222222222% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/BIsVO36An-C/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Meghana Petkar (@petupetkar)</a> on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2016-08-04T15:59:31+00:00">Aug 4, 2016 at 8:59am PDT</time></p></div></blockquote>
+
+        </div>
+          <h4>Product used: Cheese Toasty</h4>
+    </div>
+
+    <div class="item">
+      <div id="instagram">
+        <blockquote class="instagram-media" data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:550px; max-height:550px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+          <div style="padding:8px;">
+            <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:43.842592592592595% 0; text-align:center; width:100%;">
+              <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;">
+              </div></div>
+              <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">
+                <a href="https://www.instagram.com/p/BJhWh0lgX2s/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Kashmiri Barkakati Nath (@kashmirinath)</a> on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2016-08-25T06:10:35+00:00">Aug 24, 2016 at 11:10pm PDT</time></p></div></blockquote>
+          
+        </div>
+      <h4> Product used: Ricotta </h4>
+    </div>
+
+    <div class="item">
+      <div id="instagram">
+<<<<<<< HEAD
+       <blockquote class="instagram-media" data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:550px; max-height:511px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/BJnD8jQj1uc/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Renuka (@just.a.pinchofsalt)</a> on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2016-08-27T11:23:39+00:00">Aug 27, 2016 at 4:23am PDT</time></p></div></blockquote>
+        <script async defer src="http://platform.instagram.com/en_US/embeds.js"></script>
+      </div>
+=======
+        <blockquote class="instagram-media" data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:550px; max-height:550px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/BJnD8jQj1uc/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Renuka (@just.a.pinchofsalt)</a> on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2016-08-27T11:23:39+00:00">Aug 27, 2016 at 4:23am PDT</time></p></div></blockquote>
+        </div>
+>>>>>>> origin/master
+      <h4> Product Used: Cream Cheese </h4>
+    </div>
+  </div>
+
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+
+
+
+
+<br>
+<br>
+
+
+<!--footer-->
+
+  <div class="container-fluid" id="footer">
+    <div class="row">
+      <div class="col-sm-6">
+        <h4 style="text-align:center"> Useful Links </h4>
+          <br>
+          <div class="row">
+            <div class="col-sm-3">
+            </div>
+            <div class="col-sm-5">
+              <p><a href="index.html"> Home </a></p>
+              <p><a href="products.html"> Products </a></p>
+              <p> <a href="recipes.html"> Recipies </a></p>
+              <p> <a href="buy.html"> Buy </a></p>
+              <p><a href="contact.html"> Contact Us </a></p>
+            </div>
+           <div class="col-sm-2">
+             <p> <a href="https://www.facebook.com/MoozFormaggio/"> <i class="fa fa-facebook-official fa-3x"></i> <!--Facebook--></a></p>
+              <p> <a href="https://www.instagram.com/moozformaggio/"><i class="fa fa-instagram fa-3x"></i><!--Instagram--></a></p>
+              <p> <a href="https://uk.linkedin.com/"> <i class="fa fa-linkedin-square fa-3x"></i><!--Linkedin--></a></p>
+           </div>
+           <div class="col-sm-2"></div>
+         </div>
+        </div>
+        <div id="newsletter">
+        <div class="col-sm-6">
+          <h4 style="text-align:center">Sign up to our newsletter and never miss out on our new product launches </h4>
+            <br>
+          <div class="row">
+            <div class="col-sm-6 form-group">
+              <input class="form-control" id="firstname" name="firstname" placeholder="First-Name" type="text" required>
+            </div>
+            <div class="col-sm-6 form-group">
+              <input class="form-control" id="lastname" name="lastname" placeholder="Last-Name" type="text" required>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 form-group">
+              <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+            </div>
+          </div>
+             <div class="row">
+               <div class="col-sm-12 form group">
+            <button class="btn btn-default pull-left" type="button" data-toggle="modal" data-target="#myModal">Sign Up</button>
+            <!--"MOdal"-->
+            <div id="myModal" class="modal fade" role="dialog">
+              <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">YAY!</h4>
+                  </div>
+                  <div class="modal-body" >
+                    <p style="text-align:center">We will be waiting in your inbox with some cheesy goodness.</p>
+                    <img src="Images/modal.png" style="align:center">
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

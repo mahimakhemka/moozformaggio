@@ -1,0 +1,116 @@
+body{
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.navbar-brand{
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+
+.navbar {
+      margin-bottom: 0;
+      background-color: #DEB887;
+      border: 0;
+      letter-spacing: 4px;
+      opacity: 0.9;
+      color: black;
+  }
+
+.navbar-nav li a:hover {
+      color: #fff !important;
+}
+
+.navbar-nav li.active a {
+      color: #fff !important;
+      background-color:  #DEB887 !important;
+}
+
+.navbar-default .navbar-toggle {
+      border-color: transparent;
+}
+
+.open .dropdown-toggle {
+     color: #fff;
+     background-color: #DEB887  !important;
+ }
+
+ #footer{
+   padding-top: : 30px;
+   background-color: #DEB887;
+ }
+
+ #footer a{
+   color: black;
+ }
+
+.jumbotron{
+  background-color: #DEB887;
+}
+
+h2{
+  text-align: center;
+}
+
+#p{
+  padding: 20px 0px 10px 90px;
+}
+
+#p img{
+  border: 3px solid white;
+}
+
+#p img:hover{
+  border: 3px solid #DEB887;
+}
+
+#navlist li{
+display: inline;
+list-style-type: none;
+padding: 10px 10px 10px 10px;
+font-size: 19px;
+}
+
+#navlist li a{
+  style:none;
+  color:black;
+}
+
+#listcontainer{
+  text-align: center;
+}
+
+#navlist li:hover{
+  background-color: #DEB887;
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #DEB887; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+}
+
+#myBtn:hover {
+    background-color: black; /* Add a dark-grey background on hover */
+}
+
+
+/*-zoom--*/
+.image-card img {
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+.zoom-effect-container:hover .image-card img {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}

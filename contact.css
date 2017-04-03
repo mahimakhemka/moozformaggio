@@ -1,0 +1,54 @@
+body{
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.navbar-brand{
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+
+.navbar {
+      margin-bottom: 0;
+      background-color: #DEB887;
+      border: 0;
+      letter-spacing: 4px;
+      opacity: 0.9;
+      color: black;
+  }
+
+.navbar-nav li a:hover {
+      color: #fff !important;
+}
+
+.navbar-nav li.active a {
+      color: #fff !important;
+      background-color:  #DEB887 !important;
+}
+
+.navbar-default .navbar-toggle {
+      border-color: transparent;
+}
+
+.open .dropdown-toggle {
+     color: #fff;
+     background-color: #DEB887  !important;
+ }
+
+ #footer{
+   padding-top: : 30px;
+   background-color: #DEB887;
+ }
+
+ #footer a{
+   color: black;
+ }
+
+.jumbotron{
+  background-color: #DEB887;
+}
+
+#contact{
+  padding-left: 100px;
+  padding-bottom: 60px;
+}
